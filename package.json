@@ -1,0 +1,41 @@
+{
+  "name": "webrtc-presentation-conference-server",
+  "version": "0.1.0",
+  "description": "Web and signaling server for presentation conference power by WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test",
+    "postinstall": "rm -f \"./node_modules/_\" && ln -s \"./../src/\" \"./node_modules/_\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORusak/webrtc-presentation-conference-server.git"
+  },
+  "keywords": [
+    "webrtc",
+    "socket",
+    "signaling",
+    "nodejs"
+  ],
+  "author": "Oleg Rusak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORusak/webrtc-presentation-conference-server/issues"
+  },
+  "homepage": "https://github.com/ORusak/webrtc-presentation-conference-server#readme",
+  "dependencies": {
+    "config": "1.28.1",
+    "uuid": "3.1.0",
+    "winston": "2.4.0",
+    "server": "1.0.15",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "standard": "10.0.3",
+    "eslint": "4.11.0"
+  },
+  "engines": {
+    "node": ">=8.9.1"
+  }
+}

@@ -1,0 +1,12 @@
+# module
+node_modules
+
+# config app
+config/local*
+
+# ide options
+.vscode
+.history
+
+# debug, log data
+*.log
