@@ -31,7 +31,9 @@
     "uuid": "3.1.0",
     "winston": "2.4.0",
     "server": "1.0.15",
-    "lodash": "4.17.4"
+    "lodash": "4.17.4",
+    "tags-input": "git+https://github.com/ORusak/tags-input.git",
+    "d3-sandbox": "git+https://github.com/ORusak/d3-sandbox.git"
   },
   "devDependencies": {
     "standard": "10.0.3",

@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 mkdir -p ./public/app/webrtc
 cp -r ./node_modules/webrtc-presentation-conference-app/build ./public/app/webrtc
+
+mkdir -p ./public/app/tag-input
+cp -r ./node_modules/tags-input/public/example ./public/app/tag-input
+
+mkdir -p ./public/app/d3-sandbox
+cp -r ./node_modules/d3-sandbox/public ./public/app/d3-sandbox
