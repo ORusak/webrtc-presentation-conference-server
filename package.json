@@ -31,12 +31,12 @@
     "uuid": "3.1.0",
     "winston": "2.4.0",
     "server": "1.0.15",
-    "lodash": "4.17.4",
-    "webrtc-pc-app": "https://github.com/ORusak/webrtc-presentation-conference-app.git"
+    "lodash": "4.17.4"
   },
   "devDependencies": {
     "standard": "10.0.3",
-    "eslint": "4.11.0"
+    "eslint": "4.11.0",
+    "webrtc-pc-app": "ORusak/webrtc-presentation-conference-app"
   },
   "engines": {
     "node": "8.*.*"
