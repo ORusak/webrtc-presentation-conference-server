@@ -32,7 +32,7 @@
     "winston": "2.4.0",
     "server": "1.0.15",
     "lodash": "4.17.4",
-    "webrtc-pc-app": "ORusak/webrtc-presentation-conference-app"
+    "webrtc-pc-app": "https://github.com/ORusak/webrtc-presentation-conference-app.git"
   },
   "devDependencies": {
     "standard": "10.0.3",
