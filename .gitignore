@@ -10,3 +10,6 @@ config/local*
 
 # debug, log data
 *.log
+
+# public project
+public

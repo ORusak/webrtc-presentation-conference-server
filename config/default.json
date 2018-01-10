@@ -32,6 +32,11 @@
          * - development
          * - test
          */
-         "env": "production"
+         "env": "production",
+
+        /**
+        * Путь к статике
+        */
+        "public": "./public"
     }
 }
