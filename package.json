@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "test",
     "set-link": "rm -f \"./node_modules/_\" && ln -s \"./../src/\" \"./node_modules/_\"",
-    "copy-assets": "./script/copy-assets",
+    "copy-assets": "chmod a+x ./script/copy-assets && ./script/copy-assets",
     "postinstall": "npm run set-link && npm run copy-assets"
   },
   "repository": {
