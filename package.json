@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "test",
     "set-link": "rm -f \"./node_modules/_\" && ln -s \"./../src/\" \"./node_modules/_\"",
-    "copy-project-webrtc": "test -d \"./public/app/webrtc\" || mkdir -p \"./public/app/webrtc\" && cp -R \"./node_modules/webrtc-presentation-conference-app/build/\" \"./public/app/webrtc\"",
+    "copy-project-webrtc": "test -d \"./public/app/webrtc\" || mkdir -p \"./public/app/webrtc\" && cp -R \"./node_modules/webrtc-presentation-conference-app/build\" \"./public/app/webrtc\"",
     "postinstall": "npm run set-link && npm run copy-project-webrtc"
   },
   "repository": {
