@@ -8,7 +8,7 @@
     "test": "test",
     "set-link": "rm -f \"./node_modules/_\" && ln -s \"./../src/\" \"./node_modules/_\"",
     "copy-assets": "chmod a+x ./script/copy-assets && ./script/copy-assets",
-    "postinstall": "npm run set-link"
+    "postinstall": "npm run set-link && npm run copy-assets"
   },
   "repository": {
     "type": "git",
@@ -33,12 +33,12 @@
     "server": "1.0.15",
     "lodash": "4.17.4",
     "tags-input": "git+https://github.com/ORusak/tags-input.git",
-    "d3-sandbox": "git+https://github.com/ORusak/d3-sandbox.git"
+    "d3-sandbox": "git+https://github.com/ORusak/d3-sandbox.git",
+    "webrtc-presentation-conference-app": "git+https://github.com/ORusak/webrtc-presentation-conference-app.git"
   },
   "devDependencies": {
     "standard": "10.0.3",
-    "eslint": "4.11.0",
-    "webrtc-pc-app": "ORusak/webrtc-presentation-conference-app"
+    "eslint": "4.11.0"
   },
   "engines": {
     "node": "8.*.*"
