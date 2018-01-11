@@ -4,10 +4,10 @@
 
 'use strict'
 
-const { ValidateDataError } = require('_/lib/error')
+const { ValidateDataError } = require('../../lib/error')
 
 //  связь комнат и владельцев
-const listRoomOwner = require('_/instance/list-owner-room')
+const listRoomOwner = require('../../instance/list-owner-room')
 
 const ExchangeService = {
 

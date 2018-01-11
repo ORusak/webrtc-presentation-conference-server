@@ -4,11 +4,11 @@ const server = require('server')
 const { socket } = server.router
 
 //  todo: заменить на requireAll при разрастании логики
-const connect = require('_/controller/socket/connect')
-const disconnect = require('_/controller/socket/disconnect')
-const init = require('_/controller/socket/init')
-const sdp = require('_/controller/socket/sdp')
-const ice = require('_/controller/socket/ice')
+const connect = require('../../controller/socket/connect')
+const disconnect = require('../../controller/socket/disconnect')
+const init = require('../../controller/socket/init')
+const sdp = require('../../controller/socket/sdp')
+const ice = require('../../controller/socket/ice')
 
 //  todo: добавить валидацию входящих/исходящих данных событий сокетов 
 //  на основе json schema

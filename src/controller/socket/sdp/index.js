@@ -8,9 +8,9 @@
 
 const _ = require('lodash')
 
-const Controller = require('_/lib/controller')
-const { ValidateDataError } = require('_/lib/error')
-const ExchangeService = require('_/service/participant-exchange-protocol')
+const Controller = require('../../../lib/controller')
+const { ValidateDataError } = require('../../../lib/error')
+const ExchangeService = require('../../../service/participant-exchange-protocol')
 
 module.exports = new Controller({
   name: 'sdp',

@@ -6,7 +6,7 @@
  */
 'use strict'
 
-const Controller = require('_/lib/controller')
+const Controller = require('../../../lib/controller')
 
 module.exports = new Controller({
   name: 'connect',

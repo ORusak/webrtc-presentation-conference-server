@@ -3,8 +3,8 @@
  */
 'use strict'
 
-const Controller = require('_/lib/controller')
-const ExchangeService = require('_/service/participant-exchange-protocol')
+const Controller = require('../../../lib/controller')
+const ExchangeService = require('../../../service/participant-exchange-protocol')
 
 module.exports = new Controller({
   name: 'ice',

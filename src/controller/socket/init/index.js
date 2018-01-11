@@ -4,10 +4,10 @@
  * В первичной реализации устанавливает хозяина комнаты.
  */
 'use strict'
-const Controller = require('_/lib/controller')
+const Controller = require('../../../lib/controller')
 
 //  связь комнат и владельцев 
-const listRoomOwner = require('_/instance/list-owner-room')
+const listRoomOwner = require('../../../instance/list-owner-room')
 
 function getNameRoom (id) {
 

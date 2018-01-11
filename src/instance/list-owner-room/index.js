@@ -3,7 +3,7 @@
  */
 'use strict'
 
-const ListRoomOwner = require('_/lib/list-room-owner')
+const ListRoomOwner = require('../../lib/list-room-owner')
 const listRoomOwner = new ListRoomOwner()
 
 module.exports = listRoomOwner
